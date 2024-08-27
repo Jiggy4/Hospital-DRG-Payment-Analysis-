@@ -1,4 +1,4 @@
-# Project Architecture For Hospital DRG Payment Analysis
+# Hospital DRG Payment Analysis
 
 # Introduction
 
