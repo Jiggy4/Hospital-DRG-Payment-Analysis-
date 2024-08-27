@@ -4,31 +4,33 @@
 
 This project analyzes changes in Medicare reimbursements for hospitalizations in Massachusetts hospitals between 2019 and 2021. The aim is to determine the factors driving changes in the average payment per hospitalization and assess the impact of service mix and individual DRG payment changes.
 
-# Project Architecture
-
 ## Data Description
-
-•	Dataset Size: Data collected for the years 2019 and 2021 with focus on Massachusetts-based hospitals.
-
-•	Features: DRG code, description, average total payments, total discharges, and more.
-
-•	Target Analysis: Change in Medicare reimbursement rates and factors affecting these changes.
+- **Dataset Size**: Includes data from 2019 and 2021 for Massachusetts hospitals.
+- **Features**: DRG code, DRG description, average total payments, total discharges.
+- **Target Analysis**: Changes in Medicare reimbursement rates and the contributing factors.
 
 ## Technology Stack
 
 • Data Analysis: Excel
 	
 • Exploratory Data Analysis (EDA): Power BI for visual insights into the data distribution and relationships.
-	
-## Practical Applications
-• Targeted Interventions: Designing workplace wellness programs tailored to the identified predictors.
 
-• Policy Development: Informing policies that support mental health and well-being in the tech industry
+# Analysis Results
+- **Overall Increase**: There was an average payment increase of $2,482 from 2019 to 2021.
+- **Drivers of Change**:
+  - 60% attributed to changes in individual DRG payments.
+  - 40% attributed to changes in service mix.
+    
+### Business Recommendations
+1. **Optimize Service Mix**: Concentrate on high-reimbursing DRGs that improve financial outcomes and patient care quality.
+2. **Strategic Acquisitions**: Target hospitals demonstrating efficient DRG mix management, indicating better financial health and negotiation power.
+3. **Policy Enhancement**: Develop supportive policies for strategic service mix adaptations to maximize reimbursement rates.
+
+## Business Implications
+- **Financial Viability**: Increased reimbursements indicate better cost management, enhancing profitability and attractiveness for acquisitions.
+- **Brand and Recruitment**: Higher reimbursement capabilities help in attracting and retaining top healthcare talent.
+- **Negotiation Leverage**: Improved reimbursement rates enhance hospitals' bargaining power with payers and suppliers.
 
 ## Future Work
-• Extend the study to a larger and more  diverse dataset. 
-
-• Update the survey questionnaire to capture current trends and factors affecting mental health in the tech industry.
-
-## Limitations
-Limited sample size and outdated dataset Presence of selection bias and potential underreporting due to stigma.
+- **Expand Data Scope**: Include more recent years and additional states to understand broader trends.
+- **Update Analytical Methods**: Utilize advanced models to forecast future reimbursement rates based on healthcare trends.
